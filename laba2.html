@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" >
+    <link href="flex.css" rel="stylesheet" >
+    <style>
+        @import url(styles.css);
+        
+        #box3 {
+        position:absolute;
+        bottom: 50px;
+        right: 1000px;
+        background: #FFC450;
+        width: 50px;
+        height:50px;
+	    padding:2px;
+	    border: 1px solid rebeccapurple;
+        font-family:arial;}    
+        
+        #box2 {
+        position: relative;;
+        top: 500px;
+        left: 600px;
+        background: #FFFF00;
+        width: 50px;
+        height:50px;
+        padding:2px;
+        border: 1px solid black;
+        font-family:arial;
+    }
+        
+
+        #div2{
+        border: 4px solid black;
+        background: #fc8;
+        p{}
+        }
+        
+        .myclass
+        {
+            color: red;
+        }
+        </style>
+</head>
+<body>
+
+        <div id="div1"; style="border: 4px solid #ff4500; background: #ffc445"> 
+                <p style="font-size: 25px; color: blue"; align="center";>Блочний елемент</p>
+                </div>
+                <br>
+                <div id="div2"> 
+                <p style ="font-size: 13px; color: black"> Блочний елемент із стилем, який міститься в контейнері style даного документу</p>
+                </div>
+                <h1> Блочний елемент із стилем, який задано в зовнішніх таблицях стилів, які підключені до документа</h1>
+                <p class = "myclass">  </p>
+
+                <div id="box3"; >
+                        NOR
+                    </div>
+                    <div id="box2"; >
+                        XOR
+                    </div>
+    <h1>Laba_2</h1>
+    <h1>1.</h1>
+    <h1></h1>
+    <h1></h1>
+    <label><input type="radio" checked name="dva"/>SKALDSON</label> 
+    <label><input type="radio" name="dva"/>WARDGIB</label>
+
+    <style>
+        .Square
+        {
+            background: red;
+            width: 250px;
+            height: 250px;
+            transition: 3ns;
+        }
+        #secondRadio:checked ~ .Square
+        {background: green}
+        #thirdRadio:checked ~ .Square
+        {background: blue}
+    </style>
+    
+    <p>RGB radio buttons</p>
+    <input type="radio" checked="checked" name="firstRadio"/>
+    <input type="radio" name="firstRadio" id="secondRadio"/>
+    <input type="radio" name="firstRadio" id="thirdRadio"/> 
+        <div class="Square"></div>
+
+    <h1>2.</h1>
+
+    <div class="flex-container">
+        <div class="flex-element-first element-1">Я ПЕРВЫЙ</div>
+        <div class="flex-element-third-second element-2">Я ВТОРОЙ</div>
+        <div class="flex-element-third-second element-3">Я ТРЕТИЙ</div>
+        <div class="flex-element-four element-4">Я ЧЕТВЕРТЫЙ</div>
+    </div>
+    <div>
+            <img src="________.jpg" style="float: left" />
+            <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+                    sed diem nonummy nibh euismod tincidunt ut lacreet dolore 
+                    magna aliguam erat volutpat. Ut wisis enim ad minim veniam, 
+                    quis nostrud exerci tution ullamcorper suscipit lobortis nisl 
+                    ut aliquip ex ea commodo consequat.</h3>
+           </div>
+
+</body>
+</html>
